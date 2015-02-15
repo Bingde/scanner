@@ -8,5 +8,8 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+	<feature name="ScanditSDK">
+      <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>
+     </feature>
     <access origin="*" />
 </widget>
