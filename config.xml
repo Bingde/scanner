@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android   = "http://schemas.android.com/apk/res/android"
         id        = "com.phonegap.bingscanner"
-        version   = "0.0.1">
+        version   = "0.0.2">
 
     <name>scanner</name>
 
@@ -47,15 +47,16 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-     <feature name="ScanditSDK">
-      <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>
-     </feature>
-
+  
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
+   
+        <gap:plugin name=com.mirasense.scanditsdk.plugin 1.1.0 "ScanditBarcodeScanner" />
+    
+	
+   <feature name="ScanditSDK">
+      <param name="android-package" value="com.mirasense.scanditsdk.plugin 1.1.0 "ScanditBarcodeScanner""/>
+     </feature>
 
   
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
