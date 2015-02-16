@@ -1,2 +1,2 @@
-C:\test\test3\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
-C:\test\test3\platforms\android\CordovaLib\AndroidManifest.xml \
+C:\Users\peter\Documents\GitHub\scanner\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
+C:\Users\peter\Documents\GitHub\scanner\platforms\android\CordovaLib\AndroidManifest.xml \
