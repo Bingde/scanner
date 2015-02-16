@@ -5,11 +5,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android   = "http://schemas.android.com/apk/res/android"  
 		id        = "com.libingweb.scanner"
-        version   = "0.0.5"
-		<feature name="ScanditSDK">
+        version   = "0.0.5">
+		 <feature name="ScanditSDK">
          <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>
-         </feature>	>
-		 
+         </feature>	
 
     <name>scnner</name>
 
